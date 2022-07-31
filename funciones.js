@@ -101,23 +101,38 @@ let gastoMil = prompt('Escribe la cantidad de algún gasto que hayas realizado d
 console.log(gastoMil);
 
 if(gastoMil >1000){
-    alert(nombre + " "+ 'éste gasto de' + " "+ gastoMil + " " + "excede totalmente lo permitido en tu presupuesto mensual")
+    alert(nombre + " "+ 'éste gasto de' + " "+ gastoMil + " " + "excede totalmente lo permitido en tu presupuesto mensual");
 }
 
 if(gastoMil >1000){
-    console.log(gastoMil + " " + 'este mensaje no sera visible para el usuario')
+    console.log(gastoMil + " " + 'este mensaje no sera visible para el usuario');
 }
 
 
 //pedir texto por prompt y si es igual a hola mostrar por alert
-
+/*
 let saludoCorto = prompt('Generalmente cuando saludas a alguien ¿que frase usas?');
 
 console.log(saludoCorto);
 
 if(saludoCorto == hola){
-    alert(nombre + " " + 'Te felicito! este saludo:+ " ' + saludoCorto + " "+ 'es que el que se utiliza cotidianamente.')
+    alert(nombre + " " + 'Te felicito! este saludo:+ " ' + saludoCorto + " "+ 'es que el que se utiliza cotidianamente.');
 }
+/*
+if(saludoCorto != hola){
+    alert(nombre + " "+ 'Te sugiero que utilices este saludo:' + " "+ saludoCorto + " " + 'es el que se utiliza convencionalmente');
+}
+*/
+
+
+//Ejemplo de ciclo: mostrar en alert los numeros del 1 al 60
+
+for(var i = 1; i <=60; i = i + 1){
+
+    alert (i + " " + 'pulsa hasta el 60');
+ }
+ 
+ //
 
 
 
